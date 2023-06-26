@@ -1,19 +1,19 @@
-ObjectModel \n
-| \n
-|----- Object \n
-|----- InputObject \n
+ObjectModel\
+|\
+|----- Object\
+|----- InputObject\
 
 
-ObjectRepository \n
-| \n
-|----- CreateObject(Object) Object error \n
-|----- GetExistingObject(id uint) Object \n
+ObjectRepository\
+|\
+|----- CreateObject(Object) Object error\
+|----- GetExistingObject(id uint) Object\
 
 
-ObjectService \n
-| \n
-|----- CreateObject(InputObject) Object error \n
-|----- GetExistingObject(id string) Object \n
+ObjectService\
+|\
+|----- CreateObject(InputObject) Object error\
+|----- GetExistingObject(id string) Object\
 
 
 ObjectRepository is the database layer and just accepts raw data that gets filtered by the service layer
